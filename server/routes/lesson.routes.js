@@ -7,9 +7,9 @@ import {
   updateLesson,
 } from "../controllers/lesson.controllers.js";
 const router = Router();
-router.get("/lessons", getAllLessons);
-router.post("/lessons", createLesson);
-router.put("/lessons/:id", updateLesson);
-router.delete("/lessons/:id", deleteLesson);
-router.get("/lessons/:id", getLesson);
+router.get("/apilessons", getAllLessons);
+router.post("/apilessons", createLesson);
+router.put("/apilessons/:id", updateLesson);
+router.delete("/apilessons/:id", deleteLesson);
+router.get("/apilessons/:id", getLesson);
 export default router;
