@@ -54,7 +54,7 @@ function App() {
           Lessons
         </Link>
       </header>
-      <div className="pt-40 min-h-screen flex justify-center">
+      <div className="pt-60 min-h-screen flex justify-center">
         <div className="px-10 container mx-auto mt-5">
           <CourseProvider>
             <Routes>
